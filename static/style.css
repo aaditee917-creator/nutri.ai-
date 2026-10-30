@@ -1,0 +1,260 @@
+/* ===============================
+   NUTRIAI GREEN COLOR SYSTEM
+================================ */
+:root {
+    --green-dark: #14532d;
+    --green-deep: #166534;
+    --green-main: #16a34a;
+    --green-medium: #22c55e;
+    --green-light: #dcfce7;
+    --green-soft: #f0fdf4;
+    --green-pale: #f7fee7;
+
+    --text-dark: #163020;
+    --text-medium: #527061;
+    --white: #ffffff;
+}
+
+/* ===============================
+   GENERAL
+================================ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-dark);
+    background: var(--green-soft);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+.navbar {
+    background: var(--green-dark);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-button, .logout-btn {
+    background: var(--green-medium);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.nav-button:hover, .logout-btn:hover {
+    background: var(--green-main);
+}
+
+/* ===============================
+   HERO SECTION (HOME PAGE)
+================================ */
+.hero {
+    background: linear-gradient(135deg, var(--green-soft), var(--green-light));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 20px;
+    min-height: 80vh;
+}
+
+.hero-content {
+    max-width: 50%;
+    line-height: 1.6;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: var(--green-main);
+}
+
+.badge {
+    background: var(--green-light);
+    color: var(--green-deep);
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.primary-button {
+    background: var(--green-main);
+    color: var(--white);
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: 0.2s;
+}
+
+.primary-button:hover {
+    background: var(--green-deep);
+}
+
+.secondary-button {
+    border: 2px solid var(--green-main);
+    color: var(--green-deep);
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: 0.2s;
+}
+
+.secondary-button:hover {
+    background: var(--green-light);
+}
+
+/* ===============================
+   HERO AI CARD
+================================ */
+.hero-card {
+    background: var(--white);
+    border-top: 5px solid var(--green-medium);
+    padding: 25px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.match {
+    background: var(--green-light);
+    color: var(--green-deep);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.reason {
+    background: var(--green-soft);
+    border-left: 4px solid var(--green-main);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+/* ===============================
+   FEATURES & HOW IT WORKS
+================================ */
+.features {
+    background: #ecfdf5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.how-it-works {
+    background: var(--green-light);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto 0;
+}
+
+.feature-card {
+    background: var(--white);
+    border-top: 4px solid var(--green-medium);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.feature-icon {
+    background: var(--green-light);
+    color: var(--green-deep);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.step {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.step-number {
+    background: var(--green-deep);
+    color: var(--white);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto 20px;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+footer {
+    background: var(--green-dark);
+    color: var(--white);
+    text-align: center;
+    padding: 30px;
+    margin-top: auto;
+}

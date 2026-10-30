@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-Step Verification | NutriAI</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, Helvetica, sans-serif; background: #f0fdf4; color: #163020; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+        .auth-container { background: white; width: 400px; padding: 40px 30px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.05); border-top: 5px solid #16a34a; text-align: center; }
+        .auth-container h2 { color: #14532d; margin-bottom: 10px; font-size: 24px; }
+        .auth-container p { color: #527061; font-size: 14px; margin-bottom: 25px; line-height: 1.5; }
+        .form-group { margin-bottom: 20px; text-align: left; }
+        label { display: block; font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #527061; }
+        input { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; font-size: 18px; outline: none; text-align: center; letter-spacing: 4px; font-weight: bold;}
+        input:focus { border-color: #16a34a; box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.2); }
+        .submit-btn { width: 100%; padding: 12px; background: #16a34a; color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: 0.2s; }
+        .submit-btn:hover { background: #166534; }
+        .error { background: #ffe8e8; color: #b42318; padding: 10px; border-radius: 8px; font-size: 14px; margin-bottom: 15px; }
+        .back-link { display: block; margin-top: 20px; color: #16a34a; text-decoration: none; font-size: 14px; font-weight: bold; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <div class="auth-container">
+        <h2>🔒 2-Step Verification</h2>
+        <p>We've sent a 6-digit verification code to <strong>{{ email }}</strong>. Please enter it below to securely log in.</p>
+        
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+
+        <form method="POST" action="/verify_2fa">
+            <div class="form-group">
+                <label for="otp">Verification Code</label>
+                <input type="text" id="otp" name="otp" placeholder="••••••" maxlength="6" required autocomplete="off" autofocus>
+            </div>
+            <button type="submit" class="submit-btn">Verify & Login</button>
+        </form>
+        
+        <a href="/login" class="back-link">← Back to Login</a>
+    </div>
+
+</body>
+</html>

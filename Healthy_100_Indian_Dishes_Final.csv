@@ -1,0 +1,101 @@
+name,category,diet,meal_type,calories,protein,carbs,fat,fiber,sugar,iron,calcium
+Whole Wheat Roti,Cereal,No Garlic and Onion,Lunch/Dinner,297,12.0,61.2,1.7,10.5,0.5,3.5,34
+Bajra Roti,Cereal,No Garlic and Onion,Lunch/Dinner,361,11.6,67.5,5.0,11.5,0.0,8.0,42
+Jowar Roti,Cereal,No Garlic and Onion,Lunch/Dinner,349,10.4,72.6,1.9,9.7,0.0,4.1,28
+Ragi Roti,Cereal,No Garlic and Onion,Breakfast/Lunch,328,7.3,72.0,1.3,11.2,0.0,3.9,344
+Makki Roti,Cereal,No Garlic and Onion,Lunch/Dinner,365,9.4,74.3,4.7,7.3,0.0,2.7,10
+Multigrain Roti,Cereal,Veg,Lunch/Dinner,310,13.5,60.0,2.5,12.0,0.5,4.5,45
+Missi Roti,Cereal,Veg,Lunch/Dinner,330,15.0,55.0,4.0,10.0,0.5,5.0,50
+White Rice (Cooked),Cereal,No Garlic and Onion,Lunch/Dinner,130,2.7,28.0,0.3,0.4,0.1,0.2,10
+Brown Rice (Cooked),Cereal,No Garlic and Onion,Lunch/Dinner,111,2.6,23.0,0.9,1.8,0.4,0.4,10
+Quinoa Pulao,Cereal,Veg,Lunch/Dinner,120,4.4,21.3,1.9,2.8,0.9,1.5,17
+Daliya (Broken Wheat),Cereal,No Garlic and Onion,Breakfast,150,4.5,32.0,0.5,4.0,0.5,1.5,15
+Oats Porridge,Cereal,Veg,Breakfast,389,16.9,66.3,6.9,10.6,1.0,4.7,54
+Poha,Cereal,Veg,Breakfast,250,5.0,45.0,5.0,3.0,2.0,2.5,20
+Upma,Cereal,Veg,Breakfast,220,6.0,38.0,4.0,4.0,2.0,1.5,15
+Millet Khichdi,Cereal,No Garlic and Onion,Lunch/Dinner,210,7.5,35.0,3.5,6.0,0.5,2.5,40
+Sabudana Khichdi,Cereal,No Garlic and Onion,Breakfast,320,4.0,55.0,10.0,3.0,1.0,1.0,20
+Lemon Rice,Cereal,No Garlic and Onion,Lunch,180,3.5,30.0,5.0,1.5,0.5,1.2,12
+Jeera Rice,Cereal,No Garlic and Onion,Lunch/Dinner,150,3.0,29.0,3.0,1.0,0.1,0.5,15
+Vegetable Pulao,Cereal,Veg,Lunch/Dinner,170,4.0,32.0,3.5,3.0,1.0,1.0,25
+Besan Chilla,Cereal,Veg,Breakfast,240,10.0,35.0,6.0,5.0,2.0,3.0,30
+Toor Dal (Cooked),Pulse,No Garlic and Onion,Lunch/Dinner,110,7.0,18.0,1.0,5.0,0.5,1.5,25
+Moong Dal (Cooked),Pulse,No Garlic and Onion,Lunch/Dinner,105,7.5,17.0,0.5,5.5,0.5,1.8,27
+Chana Dal (Cooked),Pulse,Veg,Lunch/Dinner,120,8.0,20.0,1.2,6.0,1.0,2.0,30
+Urad Dal (Cooked),Pulse,No Garlic and Onion,Lunch/Dinner,130,8.5,21.0,1.0,5.5,0.5,2.2,35
+Masoor Dal (Cooked),Pulse,Veg,Lunch/Dinner,115,8.0,19.0,0.5,5.0,0.5,2.5,20
+Rajma (Cooked),Pulse,Veg,Lunch/Dinner,140,9.0,22.0,1.0,7.0,1.5,3.0,40
+Chole (Cooked),Pulse,Veg,Lunch/Dinner,160,8.5,25.0,2.5,7.5,2.0,2.8,45
+Lobia (Black-eyed Peas),Pulse,No Garlic and Onion,Lunch/Dinner,110,8.0,20.0,0.5,6.0,1.0,2.5,24
+Black Chickpeas (Kala Chana),Pulse,Veg,Lunch/Dinner,150,9.0,24.0,2.0,8.0,1.5,3.5,50
+Green Gram (Whole Moong),Pulse,No Garlic and Onion,Lunch/Dinner,120,8.5,21.0,0.8,7.0,1.0,2.5,35
+Kulthi Dal (Horse Gram),Pulse,No Garlic and Onion,Lunch/Dinner,135,9.0,22.0,1.0,8.0,0.5,3.8,60
+Panchmel Dal,Pulse,Veg,Lunch/Dinner,125,8.5,20.0,1.5,6.0,1.0,2.2,32
+Dal Makhani (Low Fat),Pulse,Veg,Lunch/Dinner,180,9.0,22.0,6.0,7.0,1.5,2.5,55
+Soya Chunks Curry,Pulse,Veg,Lunch/Dinner,145,18.0,12.0,2.0,5.0,1.0,4.0,120
+Tofu Curry,Pulse,Veg,Lunch/Dinner,130,12.0,6.0,7.0,2.0,1.0,2.5,200
+Palak Paneer,Vegetable,No Garlic and Onion,Lunch/Dinner,185,9.5,4.2,14.5,1.5,1.0,1.8,180
+Matar Paneer,Vegetable,Veg,Lunch/Dinner,210,10.0,12.0,13.0,4.0,3.0,1.5,160
+Bhindi Masala,Vegetable,Veg,Lunch/Dinner,120,2.5,10.0,8.0,4.0,2.0,1.0,50
+Baingan Bharta,Vegetable,Veg,Lunch/Dinner,95,2.0,8.0,6.0,4.0,3.0,0.8,30
+Aloo Gobi,Vegetable,Veg,Lunch/Dinner,110,3.0,15.0,5.0,4.0,2.5,1.2,40
+Mix Veg Curry,Vegetable,Veg,Lunch/Dinner,130,3.5,14.0,6.0,5.0,3.5,1.5,55
+Lauki Sabzi,Vegetable,No Garlic and Onion,Lunch/Dinner,75,1.5,6.0,5.0,2.5,2.0,0.5,25
+Torai Sabzi (Ridge Gourd),Vegetable,No Garlic and Onion,Lunch/Dinner,65,1.2,5.0,4.5,2.0,1.5,0.6,20
+Karela Sabzi (Bitter Gourd),Vegetable,Veg,Lunch/Dinner,90,2.0,8.0,6.0,3.5,1.0,1.0,35
+Cabbage Thoran,Vegetable,No Garlic and Onion,Lunch/Dinner,100,2.5,7.0,7.0,3.5,2.0,0.8,45
+Beans Poriyal,Vegetable,No Garlic and Onion,Lunch/Dinner,115,3.5,9.0,7.5,4.0,1.5,1.2,50
+Mushroom Masala,Vegetable,Veg,Lunch/Dinner,125,4.0,8.0,8.0,2.5,2.0,1.5,20
+Capsicum Besan,Vegetable,No Garlic and Onion,Lunch/Dinner,140,5.0,12.0,8.0,3.0,2.5,1.5,30
+Pumpkin Sabzi,Vegetable,No Garlic and Onion,Lunch/Dinner,85,1.5,9.0,5.0,2.5,3.5,0.7,25
+Gajar Matar,Vegetable,Veg,Lunch/Dinner,105,3.0,14.0,4.0,5.0,6.0,1.0,40
+Methi Malai Matar (Low Fat),Vegetable,Veg,Lunch/Dinner,150,5.0,12.0,9.0,4.0,3.0,1.5,80
+Cauliflower Curry,Vegetable,Veg,Lunch/Dinner,95,2.5,8.0,6.0,3.5,2.0,0.9,35
+Beetroot Poriyal,Vegetable,No Garlic and Onion,Lunch/Dinner,110,2.5,12.0,6.0,4.0,7.0,1.2,30
+Raw Banana Curry,Vegetable,No Garlic and Onion,Lunch/Dinner,130,2.0,20.0,5.0,3.5,1.5,1.0,25
+Jackfruit Sabzi (Kathal),Vegetable,Veg,Lunch/Dinner,145,3.5,18.0,6.5,6.0,3.0,1.5,40
+Chicken Curry (Lean),Meat,Non-Veg,Lunch/Dinner,165,22.0,5.0,6.0,1.0,1.0,1.5,25
+Chicken Tikka,Meat,Low-Carb,Dinner/Snack,175,24.5,2.5,7.5,0.5,1.0,1.2,30
+Egg Curry,Meat,Non-Veg,Lunch/Dinner,180,12.0,6.0,12.0,1.0,1.5,1.8,60
+Boiled Egg,Meat,Low-Carb,Breakfast/Snack,155,12.6,1.1,10.6,0.0,1.1,1.2,50
+Masala Omelette,Meat,Low-Carb,Breakfast,190,13.0,3.0,14.0,0.5,1.0,1.5,55
+Fish Curry (Rohu),Meat,Non-Veg,Lunch/Dinner,140,16.0,4.0,6.5,1.0,0.5,1.5,300
+Prawn Masala,Meat,Non-Veg,Lunch/Dinner,155,18.0,5.0,7.0,1.0,1.0,2.0,60
+Mutton Rogan Josh (Lean),Meat,Non-Veg,Lunch/Dinner,210,20.0,6.0,12.0,1.5,1.0,3.0,40
+Chicken Seekh Kebab,Meat,Low-Carb,Snack/Dinner,185,21.0,3.0,9.0,1.0,0.5,1.8,35
+Egg Bhurji,Meat,Low-Carb,Breakfast,200,13.5,4.0,15.0,1.0,1.5,1.9,65
+Tandoori Chicken,Meat,Low-Carb,Dinner/Snack,160,23.0,2.0,6.5,0.5,0.5,1.2,25
+Fish Fry (Shallow),Meat,Non-Veg,Lunch/Dinner,190,18.0,4.0,11.0,0.5,0.5,1.0,250
+Murg Saagwala,Meat,Non-Veg,Lunch/Dinner,170,22.0,6.0,7.0,2.5,1.0,2.5,120
+Chicken Korma,Meat,Non-Veg,Lunch/Dinner,220,20.0,8.0,12.0,1.5,2.0,1.5,50
+Fish Tikka,Meat,Low-Carb,Snack/Dinner,150,19.0,2.0,7.0,0.5,0.5,1.0,220
+Idli,Dish,No Garlic and Onion,Breakfast,150,4.5,32.0,0.5,2.0,0.5,1.0,15
+Masala Dosa,Dish,Veg,Breakfast,210,5.5,32.0,7.0,2.5,1.5,1.2,25
+Uttappam,Dish,Veg,Breakfast,180,5.0,28.0,5.5,3.0,1.5,1.5,20
+Dhokla (Besan),Dish,No Garlic and Onion,Breakfast/Snack,160,6.0,25.0,4.0,3.0,4.0,1.8,25
+Khandvi,Dish,No Garlic and Onion,Snack,180,6.0,20.0,8.0,4.0,3.0,1.5,30
+Pesarattu (Moong Dosa),Dish,Veg,Breakfast,190,8.0,30.0,4.0,4.5,1.0,2.5,40
+Roasted Makhana,Dish,No Garlic and Onion,Snack,350,9.7,77.0,0.1,14.5,0.0,1.4,60
+Chana Chaat,Dish,Veg,Snack,140,7.0,22.0,3.0,6.0,2.5,2.5,45
+Sprout Salad,Dish,No Garlic and Onion,Snack,115,8.5,18.0,0.5,4.5,1.2,2.0,35
+Peanut Salad,Dish,No Garlic and Onion,Snack,310,12.0,15.0,24.0,5.0,2.0,2.2,50
+Bhel Puri (No Sev),Dish,Veg,Snack,150,3.5,30.0,2.0,3.0,3.0,1.5,20
+Baked Panipuri,Dish,Veg,Snack,120,3.0,24.0,1.5,3.0,1.5,1.0,15
+Muthia,Dish,No Garlic and Onion,Snack,170,5.0,25.0,5.0,4.0,2.0,2.0,40
+Patra,Dish,No Garlic and Onion,Snack,185,4.5,28.0,6.0,5.0,3.0,2.5,80
+Roasted Chana,Dish,No Garlic and Onion,Snack,360,18.5,60.0,5.0,15.0,1.0,6.0,105
+Rasam,Dish,No Garlic and Onion,Soup/Side,60,2.0,10.0,1.5,2.0,2.0,1.0,15
+Tomato Soup (Indian Style),Dish,Veg,Soup,75,1.5,12.0,2.5,3.0,6.0,0.8,20
+Sweet Corn Soup,Dish,Veg,Soup,90,2.5,18.0,1.5,2.0,4.0,0.5,10
+Spinach Soup,Dish,No Garlic and Onion,Soup,85,3.0,8.0,4.5,2.5,2.0,2.0,90
+Cucumber Raita,Dairy,No Garlic and Onion,Side,70,3.0,5.0,4.0,0.5,4.0,0.2,110
+Plain Curd,Dairy,No Garlic and Onion,Side,98,3.3,4.7,4.3,0.0,4.7,0.1,121
+Paneer Tikka,Dairy,Low-Carb,Snack/Dinner,260,17.0,5.0,19.0,1.0,2.0,1.0,200
+Chaas (Buttermilk),Dairy,No Garlic and Onion,Drink,40,2.0,3.0,2.0,0.0,2.5,0.1,80
+Plain Lassi (No Sugar),Dairy,No Garlic and Onion,Drink,110,4.0,6.0,7.0,0.0,5.5,0.1,150
+Sambar,Dish,Veg,Side,110,4.5,18.0,2.5,4.0,3.0,1.5,40
+Coconut Chutney,Dish,No Garlic and Onion,Side,180,2.0,6.0,17.0,4.0,2.0,1.0,15
+Mint Coriander Chutney,Dish,Veg,Side,50,2.0,8.0,1.0,3.0,2.0,1.5,40
+Tomato Chutney,Dish,Veg,Side,65,1.5,10.0,2.0,2.5,5.0,0.8,20
+Carrot Halwa (Low Sugar),Dish,No Garlic and Onion,Dessert,190,4.0,25.0,8.0,3.0,12.0,1.0,100
+Phirni (Sugar Free),Dish,No Garlic and Onion,Dessert,140,5.0,20.0,4.5,1.0,5.0,0.5,130

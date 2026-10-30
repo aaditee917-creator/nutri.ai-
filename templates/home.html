@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriAI | AI Food Recommendations</title>
+    
+    <!-- This links your exact CSS file! Make sure your CSS is saved as static/style.css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+    <style>
+        /* A few structural layouts to make your gorgeous CSS colors pop! */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px; }
+        .nav-links { display: flex; gap: 20px; align-items: center; }
+        .nav-links a { text-decoration: none; font-weight: bold; }
+        .nav-button { padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; }
+        
+        .hero { display: flex; align-items: center; justify-content: space-between; padding: 80px 20px; min-height: 80vh; }
+        .hero-content { max-width: 50%; line-height: 1.6; }
+        .hero h1 { font-size: 3rem; margin-bottom: 20px; }
+        .badge { display: inline-block; padding: 5px 15px; border-radius: 20px; font-weight: bold; margin-bottom: 20px; }
+        .buttons { display: flex; gap: 15px; margin-top: 30px; }
+        .primary-button, .secondary-button { padding: 15px 30px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1.1rem; }
+        
+        .hero-card { padding: 25px; border-radius: 15px; width: 350px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .match { display: inline-block; padding: 5px 10px; border-radius: 8px; font-weight: bold; margin-bottom: 15px; }
+        .reason { padding: 15px; border-radius: 8px; margin-top: 15px; font-size: 0.9rem; }
+        
+        .features, .how-it-works, .about { padding: 80px 20px; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 40px auto 0; }
+        .feature-card { padding: 30px; border-radius: 15px; text-align: left; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .feature-icon { width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 12px; font-size: 24px; margin-bottom: 20px; }
+        
+        .step { padding: 30px; border-radius: 15px; text-align: center; }
+        .step-number { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; font-weight: bold; font-size: 20px; margin: 0 auto 20px; }
+        
+        footer { text-align: center; padding: 30px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <h2>🥗 NutriAI</h2>
+        </div>
+        <div class="nav-links">
+            {% if user %}
+                <span>Welcome, {{ user.name }}!</span>
+                <a href="/recommend" class="nav-button">Get Recommendations</a>
+                <a href="/logout">Logout</a>
+            {% else %}
+                <a href="/login">Login</a>
+                <a href="/signup" class="nav-button">Sign Up</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="container" style="display: flex; align-items: center; justify-content: space-between;">
+            <div class="hero-content">
+                <div class="badge">✨ AI-Powered Nutrition</div>
+                <h1>Eat Smarter, <br>Live <span>Better.</span></h1>
+                <p>Discover personalized food recommendations based on your unique body metrics, diet type, and fitness goals. Let our AI do the heavy lifting for your meal planning.</p>
+                <div class="buttons">
+                    <a href="{% if user %}/recommend{% else %}/signup{% endif %}" class="primary-button">Start Your Journey</a>
+                    <a href="#how-it-works" class="secondary-button">How It Works</a>
+                </div>
+            </div>
+
+            <!-- HERO AI CARD (Visual flair) -->
+            <div class="hero-card">
+                <div class="match">98% Match</div>
+                <h3 style="margin-top:0;">Grilled Salmon Salad</h3>
+                <p style="color: #666; margin: 5px 0;">Diet: Keto | Goal: Weight Loss</p>
+                <div class="reason">
+                    <strong>Why this fits:</strong> High in protein and healthy fats, perfectly optimized for your BMI target and calorie deficit goals.
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- FEATURES SECTION -->
+    <section class="features">
+        <h2>Why Choose NutriAI?</h2>
+        <div class="grid">
+            <div class="feature-card">
+                <div class="feature-icon">🧬</div>
+                <h3>Personalized Scoring</h3>
+                <p>Our algorithm calculates a custom AI score for every food based on your BMI, dietary restrictions, and weight goals.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Macro Optimization</h3>
+                <p>We automatically filter and score foods based on optimal protein, fiber, and sugar balances tailored specifically to you.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Instant Results</h3>
+                <p>No more scrolling through endless recipes. Get top 10 ranked food suggestions for any meal type instantly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="grid">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Create a Profile</h3>
+                <p>Sign up securely and let us know your basic details.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Enter Your Metrics</h3>
+                <p>Input your height, weight, diet preferences, and goals.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Get Recommendations</h3>
+                <p>Our AI matches you with the absolute best foods for your body.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 NutriAI Food Recommendation System. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
